@@ -1,0 +1,7 @@
+.CategoryCards {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px auto;
+    
+}

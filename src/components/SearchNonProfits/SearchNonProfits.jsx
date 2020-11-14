@@ -5,23 +5,26 @@ import SearchBar from './SearchBar/SearchBar';
 import axios from '../../axios/axios-categories';
 import CategoryCard from './CategoryOptions/CategoryCard/CategoryCard';
 import Aux from '../../hoc/Auxiliary';
+import { CategoryCards } from './CategoryOptions/CategoryCards/CategoryCards';
+
 class SearchNonProfits extends Component {
  state = {
     inputValue: '',
-    filteredOrganizations: []
+    organizations: []
  }
 
     searchCategoryHandler = (event) => {
-        const filteredOrganizations = [];
+        
           if(event.keyCode === 13){
+              // IF STRING EMPTY SET EMPTY ARRAY
+              const organizations = [];
               const inputCpy = "^" + event.target.value;
               let re = new RegExp(inputCpy, "i");
               axios.get('/organizations.json')
               .then(response => {
-               const organizations = response.data.organizations;
-               organizations.map((organization, index) => {
-                  if(!re.test(organization.category)){
-                    organizations.splice(index, 1);
+               response.data.organizations.map((organization, index) => {
+                  if(re.test(organization.category)){
+                        organizations.push(organization);
                   }
                });
                 this.setState({organizations: organizations});
@@ -39,21 +42,7 @@ class SearchNonProfits extends Component {
     
 
     render(){
-        let organizations = null;
-        if(this.state.organizations){
-             organizations = (
-                <Aux>
-                {this.state.organizations.map(organization => {
-                    return <CategoryCard 
-                            key={organization.id}
-                            categoryCardImage={organization.imageLink}
-                             categoryCardTitle={organization.title}
-                             categoryCardDescription={organization.description}
-                            />
-                })}
-                </Aux>
-            );
-        }
+        
         return (
             <div className={classes.BackGround}>
 
@@ -61,9 +50,10 @@ class SearchNonProfits extends Component {
                 handleChange={this.handleChange} 
                 searchCategoryHandler={this.searchCategoryHandler}/>
 
-                <CategoryOptions />
+            <CategoryOptions />
 
-                {organizations}
+            <CategoryCards organizations = {this.state.organizations}/>
+               
             </div>
         );
     };

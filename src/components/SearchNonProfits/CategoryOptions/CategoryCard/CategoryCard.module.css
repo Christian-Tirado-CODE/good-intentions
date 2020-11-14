@@ -2,6 +2,7 @@
     width: 400px;
 background-color: white;
 border-radius: 10px;
+position: relative;
 }
 .CategoryCardImage{
 width: 100%;
@@ -11,4 +12,8 @@ width: 100%;
 }
 .CategoryCardDescription {
 
+}
+
+.CategoryCardTextContainer {
+    padding: 10px;
 }

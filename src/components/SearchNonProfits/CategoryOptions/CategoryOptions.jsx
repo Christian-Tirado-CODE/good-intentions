@@ -1,7 +1,7 @@
 import classes from './CategoryOptions.module.css';
 import React, { Component } from 'react';
 import CategoryOption from './CategoryOption/CategoryOption';
-
+import Aux from '../../../hoc/Auxiliary';
 
 
 class CategoryOptions extends Component {
@@ -11,21 +11,22 @@ class CategoryOptions extends Component {
             "Social",
             "Economics",
             "Environment",
-            "Religion"
+            "Religion",
+            "Child abuse"
         ]
     }
     render() {
     let categories = (
-        <div>{   /* ======= USE AUX INSTEAD OF DIV} ========= */}
+        <Aux>{   /* ======= USE AUX INSTEAD OF DIV} ========= */}
         {this.state.categories.map(category => {
-           return  <CategoryOption CategoryOptionName = {category}/>
+           return  <CategoryOption categoryOptionName = {category}/>
         })};
-        </div>
+        </Aux>
     );
 
         return (
             <div className={classes.CategoryOptions}>
-                
+                {categories}
             </div>
         );
     }

@@ -3,6 +3,8 @@
     border-radius: 20px;
     color: #cb4154;
     font-size: 25px;
-    width: fit-content;
-    padding: 20px;
+    width: 200px;
+    padding: 10px 20px;
+    text-align: center;
+    row-gap: 20px;
 }

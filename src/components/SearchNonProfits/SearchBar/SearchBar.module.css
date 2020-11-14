@@ -1,8 +1,18 @@
+.SearchBarContainer {
+ width:  600px;
+ margin: 0 auto;
+}
+
+
 .SearchBar {
+    width: 100%;
     background-color: white;
     color: #cb4154;
     border: none;
+    margin: 0 auto;
     font-size: 30px;
     outline:  none;
     border-radius: 30px;
+    padding: 10px 20px;
+    margin-bottom: 50px;
 }

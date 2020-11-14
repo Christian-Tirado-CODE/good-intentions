@@ -19,7 +19,7 @@ class CategoryOptions extends Component {
     let categories = (
         <Aux>{   /* ======= USE AUX INSTEAD OF DIV} ========= */}
         {this.state.categories.map(category => {
-           return  <CategoryOption categoryOptionName = {category}/>
+           return  <CategoryOption key={category} categoryOptionName = {category}/>
         })};
         </Aux>
     );

@@ -6,7 +6,7 @@ import axios from '../../axios/axios-categories';
 import CategoryCard from './CategoryOptions/CategoryCard/CategoryCard';
 import Aux from '../../hoc/Auxiliary';
 import { CategoryCards } from './CategoryOptions/CategoryCards/CategoryCards';
-
+import BackgroundImage from '../../img/planet_over_profit.jpg';
 class SearchNonProfits extends Component {
  state = {
     inputValue: '',
@@ -42,15 +42,28 @@ class SearchNonProfits extends Component {
     
 
     render(){
-        
+        const Style = {
+            width: "100%",
+            height: "400px",
+            backgroundImage: `url(${BackgroundImage})`,
+            backgroundPosition: "center",
+            backgroundRepeat:" no-repeat",
+            backgroundSize: "cover"
+          };
+
         return (
             <div className={classes.BackGround}>
-
+                <div className={classes.SearchAreaBackGround} style={Style}>
+                <div className={classes.Overlay}></div>
+                <div className={classes.SearchAreaContainer}>
                 <SearchBar inputValue={this.state.inputValue} 
                 handleChange={this.handleChange} 
                 searchCategoryHandler={this.searchCategoryHandler}/>
-
-            <CategoryOptions />
+                <CategoryOptions />
+                </div>
+                
+                </div>
+               
 
             <CategoryCards organizations = {this.state.organizations}/>
                

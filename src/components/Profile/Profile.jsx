@@ -5,7 +5,7 @@ import Tabs from "../Tabs/Tabs";
 import Posts from '../Posts/Posts';
 import HeroSlider from '../UI/HeroSlider/HeroSlider';
 import Events from '../Events/Events';
-
+import Navbar from '../Navbar/Navbar';
 class Profile extends Component {
     state = {
         name: "",
@@ -81,6 +81,7 @@ fetchEvents = (organization_id) => {
         
         return (
             <div className={classes.Profile}>
+                <Navbar />
                <div className={classes.ProfileInfoContainer}>
                    <div className={classes.ProfileBio}>
                       <div className={classes.ProfilePic}><img src={require("../../img/logo.png").default} className={classes.Logo}/></div>

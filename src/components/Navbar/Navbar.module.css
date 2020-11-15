@@ -1,0 +1,36 @@
+
+.Navbar {
+    width: 100%;
+    background-color: #212121;
+}
+.Logo {
+    width: 80px;
+}
+
+.Container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ActionBtns {
+    
+}
+.Login {
+ background-color: #cb4154;
+ color: white;
+ border: none;
+ font-size: 18px;
+ padding: 5px 15px;
+ border-radius: 5px;
+ font-weight: 100;
+}
+.SignUp {
+ color: white;
+ background-color: transparent;
+ border: none;
+ font-size: 20px;
+ padding: 5px 15px;
+}

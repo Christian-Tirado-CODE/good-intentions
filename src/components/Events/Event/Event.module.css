@@ -1,0 +1,42 @@
+.Event {
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid #e8e8e8;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(238, 238, 238);
+    display: grid;
+    grid-template-columns: 20% 1fr;
+}
+
+.LogoContainer {
+    background-color: #4b4b4b;
+    position: relative;
+}
+.Logo {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.EventAction {
+   color: white;
+   background-color: #cb4154;
+   border: none;
+   outline: none;
+   font-size: 16px;
+   border-radius: 5px;
+   padding: 5px 10px;
+   
+}
+
+.EventText {
+    padding: 10px;
+}
+.EventTitle {
+    font-size: 24px;
+    margin: 5px 0 25px 0;
+    color: #cb4154;
+}

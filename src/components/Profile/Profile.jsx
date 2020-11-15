@@ -4,6 +4,8 @@ import axios from '../../axios/axios-categories';
 import Tabs from "../Tabs/Tabs"; 
 import Posts from '../Posts/Posts';
 import HeroSlider from '../UI/HeroSlider/HeroSlider';
+import Events from '../Events/Events';
+
 class Profile extends Component {
     state = {
         name: "",
@@ -14,12 +16,14 @@ class Profile extends Component {
         website: "",
         followers: "",
         id: null,
-        posts: []
+        posts: [],
+        events: []
     }
 
     componentDidMount(){
     
         this.fetchOrganizationsData(this.props.match.params.name);
+        this.fetchEvents(1);
     }
 
     fetchOrganizationsData = async (name) => {
@@ -58,13 +62,28 @@ class Profile extends Component {
         
 }
 
+fetchEvents = (organization_id) => {
+    const events = [];
+    axios.get('/organizations/events.json')
+    .then(response => {
+        response.data.map(org_event => {
+            if(org_event.organization_id === organization_id){
+                events.push(org_event);
+            }
+        });
+        this.setState({events: events});
+    });
+    
+    
+}
+
     render() {
         
         return (
             <div className={classes.Profile}>
                <div className={classes.ProfileInfoContainer}>
                    <div className={classes.ProfileBio}>
-                      <div className={classes.ProfilePic}>{/*<img src={require("../../img/" + this.state.logo).default} className={classes.CategoryCardImage}/>*/}</div>
+                      <div className={classes.ProfilePic}><img src={require("../../img/logo.png").default} className={classes.Logo}/></div>
                       <div className={classes.ProfileText}>
                       <div className={classes.ProfileName}>{this.state.name}</div>
                         <button className={classes.ProfileFollowButton}>Follow</button>
@@ -82,11 +101,10 @@ class Profile extends Component {
          <HeroSlider />
          </div>
        <div label="Publicaciones"> 
-         After 'while, <em>Crocodile</em>! 
          <Posts posts={this.state.posts}/>
        </div> 
        <div label="Eventos"> 
-         Nothing to see here, this tab is <em>extinct</em>! 
+            <Events events={this.state.events}/>
        </div> 
      </Tabs> 
                </div>

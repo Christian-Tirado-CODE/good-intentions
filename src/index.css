@@ -27,3 +27,7 @@ code {
 .swiper-slide {
   list-style-type: none;
 }
+
+.tab-list-active {
+  border-top: 1px solid black;
+}

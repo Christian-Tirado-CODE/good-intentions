@@ -2,10 +2,10 @@
     
 }
 .TabList {
-    width: 400px;
+    width: 500px;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
 

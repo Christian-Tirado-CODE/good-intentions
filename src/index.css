@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.swiper-container {
+  width: 500px;
+}
+
+.swiper-pagination {
+  bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.swiper-wrapper {
+  padding-inline-start: 0;
+}
+.swiper-slide {
+  list-style-type: none;
+}

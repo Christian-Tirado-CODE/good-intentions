@@ -1,0 +1,35 @@
+.HeroSlide {
+    height: 300px !important;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+  }
+  .SlideImage {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+ 
+  .SliderContent {
+      width: inherit;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px;
+  }
+  .SlideTitle {
+      width: fit-content;
+      margin: 0 auto;
+  }

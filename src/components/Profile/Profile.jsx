@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import axios from '../../axios/axios-categories';
 import Tabs from "../Tabs/Tabs"; 
 import Posts from '../Posts/Posts';
+import HeroSlider from '../UI/HeroSlider/HeroSlider';
 class Profile extends Component {
     state = {
         name: "",
@@ -76,35 +77,10 @@ class Profile extends Component {
                        <div className={classes.ProfileWebsiteLink}>Website: {this.state.website}</div>
                        </div>
                    </div>
-                   <div className={classes.Triangle}></div>
                    <Tabs> 
        <div label="Sobre Nosotros"> 
-          <div>
-             <h2>Mision:</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate vitae, odit 
-             perspiciatis provident autem et esse aperiam voluptas tenetur harum illum? Excepturi eum 
-             perferendis dignissimos porro beatae, quibusdam recusandae maxime deleniti cumque, ex fugit 
-             aliquam, inventore iure dolore ab nulla! Rem nihil eaque fugit eveniet quia quod, inventore 
-             tenetur.
-          </div>
-          <div>
-             <h2>Vision:</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate vitae, odit 
-             perspiciatis provident autem et esse aperiam voluptas tenetur harum illum? Excepturi eum 
-             perferendis dignissimos porro beatae, quibusdam recusandae maxime deleniti cumque, ex fugit 
-             aliquam, inventore iure dolore ab nulla! Rem nihil eaque fugit eveniet quia quod, inventore 
-             tenetur.
-          </div>
-          <div>
-             <h2>Proposito:</h2>
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate vitae, odit 
-             perspiciatis provident autem et esse aperiam voluptas tenetur harum illum? Excepturi eum 
-             perferendis dignissimos porro beatae, quibusdam recusandae maxime deleniti cumque, ex fugit 
-             aliquam, inventore iure dolore ab nulla! Rem nihil eaque fugit eveniet quia quod, inventore 
-             tenetur.
-          </div>
-          
-       </div> 
+         <HeroSlider />
+         </div>
        <div label="Publicaciones"> 
          After 'while, <em>Crocodile</em>! 
          <Posts posts={this.state.posts}/>

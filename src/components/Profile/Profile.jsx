@@ -77,8 +77,32 @@ class Profile extends Component {
                        </div>
                    </div>
                    <Tabs> 
-       <div label="Info"> 
-         See ya later, <em>Alligator</em>! 
+       <div label="Sobre Nosotros"> 
+          <div>
+             <h2>Mision:</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate vitae, odit 
+             perspiciatis provident autem et esse aperiam voluptas tenetur harum illum? Excepturi eum 
+             perferendis dignissimos porro beatae, quibusdam recusandae maxime deleniti cumque, ex fugit 
+             aliquam, inventore iure dolore ab nulla! Rem nihil eaque fugit eveniet quia quod, inventore 
+             tenetur.
+          </div>
+          <div>
+             <h2>Vision:</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate vitae, odit 
+             perspiciatis provident autem et esse aperiam voluptas tenetur harum illum? Excepturi eum 
+             perferendis dignissimos porro beatae, quibusdam recusandae maxime deleniti cumque, ex fugit 
+             aliquam, inventore iure dolore ab nulla! Rem nihil eaque fugit eveniet quia quod, inventore 
+             tenetur.
+          </div>
+          <div>
+             <h2>Proposito:</h2>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi cupiditate vitae, odit 
+             perspiciatis provident autem et esse aperiam voluptas tenetur harum illum? Excepturi eum 
+             perferendis dignissimos porro beatae, quibusdam recusandae maxime deleniti cumque, ex fugit 
+             aliquam, inventore iure dolore ab nulla! Rem nihil eaque fugit eveniet quia quod, inventore 
+             tenetur.
+          </div>
+          
        </div> 
        <div label="Publicaciones"> 
          After 'while, <em>Crocodile</em>! 

@@ -20,7 +20,7 @@ class CategoryOptions extends Component {
         <Aux>{   /* ======= USE AUX INSTEAD OF DIV} ========= */}
         {this.state.categories.map(category => {
            return  <CategoryOption key={category} categoryOptionName = {category}/>
-        })};
+        })}
         </Aux>
     );
 

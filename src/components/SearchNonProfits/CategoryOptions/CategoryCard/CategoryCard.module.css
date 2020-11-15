@@ -1,14 +1,57 @@
 .CategoryCard {
-    width: 400px;
-background-color: white;
-border-radius: 10px;
+  height: 21em;
+  width: 17em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: relative;
+  -webkit-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-box-shadow: 15px 15px 27px #494949b0;
+  box-shadow: 15px 15px 27px #494949b0;
+  background-color: white;
+  border-bottom: solid #333 5px;
+  border-right: solid #333 3px;
 }
-.CategoryCardImage{
-width: 100%;
+.CategoryCardImage {
+  height: 17em;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0%;
 }
 .CategoryCardTitle {
-
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  /* color: $color-header; */
+  margin-bottom: 0.1rem;
+  margin-top: 0.05rem;
 }
 .CategoryCardDescription {
+  background-color: #fafafc;
+  height: 12em;
+  width: 14em;
+  margin-left: 10%;
+  text-align: center;
+}
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 30px;
 }

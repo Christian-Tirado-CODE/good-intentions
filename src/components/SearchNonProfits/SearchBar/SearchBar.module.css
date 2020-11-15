@@ -1,18 +1,23 @@
 .SearchBarContainer {
- width:  600px;
- margin: 0 auto;
+  width: 600px;
+  margin: 0 auto;
 }
 
-
 .SearchBar {
-    width: 100%;
-    background-color: white;
-    color: #cb4154;
-    border: none;
-    margin: 0 auto;
-    font-size: 30px;
-    outline:  none;
-    border-radius: 30px;
-    padding: 10px 20px;
-    margin-bottom: 50px;
+  width: 100%;
+  background-color: white;
+  color: #cb4154;
+  border: none;
+  margin: 0 auto;
+  font-size: 30px;
+  outline: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 17%;
+  border-bottom: solid #333 5px;
+  border-right: solid #333 3px;
+  -webkit-box-shadow: 15px 15px 27px #494949b0;
+  box-shadow: 15px 15px 27px #494949b0;
 }

@@ -6,6 +6,9 @@ import Tabs from './Tabs';
 const ProfilePage = () => {
     return (
 		
+
+<div class="content-container">
+<div class="container-fluid">
         <div class="recipe-card">
 
 	<aside>
@@ -30,7 +33,7 @@ const ProfilePage = () => {
 		<Tabs/>
 	</article>
 
-</div>
+</div></div></div>
     );
 };
 

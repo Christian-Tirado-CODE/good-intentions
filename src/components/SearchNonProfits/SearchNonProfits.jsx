@@ -7,6 +7,7 @@ import CategoryCard from './CategoryOptions/CategoryCard/CategoryCard';
 import Aux from '../../hoc/Auxiliary';
 import { CategoryCards } from './CategoryOptions/CategoryCards/CategoryCards';
 
+
 class SearchNonProfits extends Component {
  state = {
     inputValue: '',
@@ -44,8 +45,7 @@ class SearchNonProfits extends Component {
     render(){
         
         return (
-            <div className={classes.BackGround}>
-
+            <div>
                 <SearchBar inputValue={this.state.inputValue} 
                 handleChange={this.handleChange} 
                 searchCategoryHandler={this.searchCategoryHandler}/>

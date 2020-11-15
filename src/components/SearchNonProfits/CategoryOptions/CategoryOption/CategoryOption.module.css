@@ -1,10 +1,21 @@
 .CategoryOption {
-    background-color: white;
-    border-radius: 20px;
-    color: #cb4154;
-    font-size: 25px;
-    width: 200px;
-    padding: 10px 20px;
-    text-align: center;
-    row-gap: 20px;
+  background-color: white;
+  border-radius: 20px;
+  color: #cb4154;
+  font-size: 25px;
+  width: 400px;
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-align: center;
+  row-gap: 20px;
+  border-bottom: solid #333 5px;
+  border-right: solid #333 3px;
+  -webkit-box-shadow: 15px 15px 27px #494949b0;
+  box-shadow: 15px 15px 27px #494949b0;
+}
+
+h4 {
+  margin: 0;
+  font-weight: 300;
+  color: black;
 }

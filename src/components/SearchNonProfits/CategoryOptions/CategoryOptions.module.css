@@ -1,11 +1,21 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 .CategoryOptions {
-    width: 800px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
-    margin:  0 auto;
-    justify-items: center;
+  width: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 20px;
+  margin-left: -5%;
+  justify-items: center;
+}
+.CategoryOptionsImage {
+  height: 200px;
+  width: 200px;
+  top: 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-bottom: 0%;
 }

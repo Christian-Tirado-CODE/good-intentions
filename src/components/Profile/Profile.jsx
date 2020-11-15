@@ -1,7 +1,8 @@
 import classes from './Profile.module.css';
 import React, { Component } from 'react';
 import axios from '../../axios/axios-categories';
-
+import Tabs from "../Tabs/Tabs"; 
+import Posts from '../Posts/Posts';
 class Profile extends Component {
     state = {
         name: "",
@@ -10,34 +11,54 @@ class Profile extends Component {
         category: "",
         followers: "",
         website: "",
-        followers: ""
+        followers: "",
+        id: null,
+        posts: []
     }
 
     componentDidMount(){
-        console.log(this.props.match.params.name);
+    
         this.fetchOrganizationsData(this.props.match.params.name);
     }
 
-    fetchOrganizationsData = (name) => {
+    fetchOrganizationsData = async (name) => {
         axios.get('/organizations.json')
         .then(response => {
          response.data.organizations.map((organization) => {
              if(organization.name === name){
+                this.fetchPosts(organization.id);
                  this.setState({
                      name: organization.name,
                      description: organization.description,
                      logo: organization.logo,
                      category: organization.category,
                      website: organization.website,
-                     followers: organization.followers
+                     followers: organization.followers,
+                     id: organization.id
                     });
              }
+             
          });
     });
 }
 
+    fetchPosts = (organization_id) => {
+        const posts = [];
+        axios.get('/organizations.json')
+        .then(response => {
+            response.data.posts.map(post => {
+                if(post.organization_id === organization_id){
+                    posts.push(post);
+                }
+            });
+            this.setState({posts: posts});
+        });
+        
+        
+}
+
     render() {
-        console.log(this.state.logo);
+        
         return (
             <div className={classes.Profile}>
                <div className={classes.ProfileInfoContainer}>
@@ -55,9 +76,18 @@ class Profile extends Component {
                        <div className={classes.ProfileWebsiteLink}>Website: {this.state.website}</div>
                        </div>
                    </div>
-                   <div className={classes.OrganizationPosts}>
-                     <h1>hoj</h1>
-                   </div>
+                   <Tabs> 
+       <div label="Info"> 
+         See ya later, <em>Alligator</em>! 
+       </div> 
+       <div label="Publicaciones"> 
+         After 'while, <em>Crocodile</em>! 
+         <Posts posts={this.state.posts}/>
+       </div> 
+       <div label="Eventos"> 
+         Nothing to see here, this tab is <em>extinct</em>! 
+       </div> 
+     </Tabs> 
                </div>
             </div>
         );

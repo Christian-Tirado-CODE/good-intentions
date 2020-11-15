@@ -76,6 +76,7 @@ class Profile extends Component {
                        <div className={classes.ProfileWebsiteLink}>Website: {this.state.website}</div>
                        </div>
                    </div>
+                   <div className={classes.Triangle}></div>
                    <Tabs> 
        <div label="Sobre Nosotros"> 
           <div>

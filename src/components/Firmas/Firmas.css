@@ -1,0 +1,167 @@
+.grid-container {
+  -webkit-box-shadow: 15px 15px 27px #494949b0;
+  box-shadow: 15px 15px 27px #494949b0;
+  border-bottom: solid #333 5px;
+  border-right: solid #333 3px;
+  border-radius: 16px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 10%;
+  background-color: white;
+  width: 1400px;
+}
+.grid-item > div {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-image {
+  margin: 0%;
+  margin-bottom: 10px;
+  border-top-left-radius: 16px;
+  width: 1000px;
+  height: 450px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  margin-top: 0%;
+}
+
+.form-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 50px;
+}
+
+h4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+progress {
+  -webkit-box-shadow: 15px 15px 27px #494949b0;
+  box-shadow: 15px 15px 27px #494949b0;
+  border-bottom: solid #333 3px;
+  border-right: solid #333 2px;
+  border-left: solid 2px;
+  border-top: solid rgb(177, 177, 177) 1px;
+  border-radius: 6px;
+  background: #cb4154;
+  height: 15px;
+}
+
+progress {
+  color: #cb4154;
+}
+
+progress::-webkit-progress-value {
+  background: lightblue;
+}
+
+progress::-moz-progress-bar {
+  background: lightcolor;
+}
+
+progress::-webkit-progress-value {
+  background: #cb4154;
+}
+
+progress::-webkit-progress-bar {
+  background: rgb(177, 177, 177);
+}
+
+input {
+  width: 100%;
+  height: 35px;
+  border-radius: 16px;
+  border: solid #cb4154;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #cb4154;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  letter-spacing: 1px;
+}
+
+.profile {
+  width: 350px;
+  height: 150px;
+  border-radius: 16px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  border-top: solid #cb4154 2px;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://m.media-amazon.com/images/S/aplus-media/vc/cab6b08a-dd8f-4534-b845-e33489e91240._CR75,0,300,300_PT0_SX300__.jpg");
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  border: solid #cb4154 2px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  /* margin: 5px 2px; */
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}

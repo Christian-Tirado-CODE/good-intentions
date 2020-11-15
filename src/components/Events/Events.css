@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+.card {
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 25px;
+  position: relative;
+  margin-top: 10%;
+}
+.card h2 {
+  margin: 0;
+  padding: 0 1rem;
+}
+.card .title {
+  padding: 1rem;
+  text-align: right;
+  color: green;
+  font-weight: bold;
+  font-size: 12px;
+}
+.card .desc {
+  padding: 0.5rem 1rem;
+  font-size: 12px;
+}
+.card .actions {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.card svg {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto;
+}
+
+.img-avatar {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid #cb4154;
+  background-color: white;
+  top: 15px;
+  left: 85px;
+}
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.title-total {
+  margin-left: 9%;
+  margin-bottom: 8%;
+}
+
+path {
+  fill: white;
+}
+
+.img-portada {
+  width: 100%;
+}
+
+.portada {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url("https://m.media-amazon.com/images/S/aplus-media/vc/cab6b08a-dd8f-4534-b845-e33489e91240._CR75,0,300,300_PT0_SX300__.jpg");
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 80px;
+  top: 2px;
+  left: 5px;
+  position: absolute;
+}
+
+.img-avatar {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  border-radius: 50%;
+  border: 6px solid #cb4154;
+  background-color: white;
+  top: 15px;
+  left: 85px;
+  background-image: url("https://static1.squarespace.com/static/5dfab3304a203d34f044fe92/t/5e160b03492e7b341a4fceba/1578502922387/Logo+Facebook.png?format=1500w");
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.button {
+  background-color: #cb4154;
+  border: 0;
+  border-radius: 50px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  letter-spacing: 1px;
+  margin-left: 20%;
+}

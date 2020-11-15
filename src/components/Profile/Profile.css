@@ -1,0 +1,15 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-item {
+  text-align: center;
+  font-size: 20px;
+}
+
+.banner {
+  width: 100%;
+}

@@ -3,4 +3,4 @@ Social network for non-profits intended to be built using the MERN stack. This p
 
 ![Hackathon Flyer](https://lh3.googleusercontent.com/TvCvWFX-W3TcB-b7GXI_ydm78Bo5Iq3kbfZy-CFBwlhGBNJ_8ftIfycmEz8YNDi-nrjqvX-5Iw4AUlJmCBixcJlShUlSIncFlNUR9-vEtFpKHJuWeqRArH04lP2SX8xYTmsEGGWIYA=w2400)
 
-Presentation given by the Founder of Sembrando Sentido: https://drive.google.com/file/d/1lmNjIOexHsV1QzaQ18Ro2uiKOH9JsQDJ/view?usp=sharing
+Presentation given by the Founder of Sembrando Sentido can be found [here.](https://drive.google.com/file/d/1lmNjIOexHsV1QzaQ18Ro2uiKOH9JsQDJ/view?usp=sharing)

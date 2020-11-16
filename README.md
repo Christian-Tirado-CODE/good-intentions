@@ -8,4 +8,4 @@ The organization called "Sembrando Sentido" hosted a virtual hackathon with the 
 ## Details
 To get more details about the event's outcome, people involved, prizes and more [click here.](https://drive.google.com/file/d/1lmNjIOexHsV1QzaQ18Ro2uiKOH9JsQDJ/view?usp=sharing)
 
-[organizatio-profile](https://media.giphy.com/media/UUkk4F3a8cJ3GxiCGF/giphy.gif)
+![organizatio-profile](https://media.giphy.com/media/UUkk4F3a8cJ3GxiCGF/giphy.gif)

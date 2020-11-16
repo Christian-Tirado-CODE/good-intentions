@@ -8,6 +8,7 @@ The organization called "Sembrando Sentido" hosted a virtual hackathon with the 
 ## The two features we built...
 
 The first task we wanted to address was a search bar that allows individuals to look up non-profits based on topics  they are interested in(politics, government, environment etc.) and provide suggestions.
+
 ![organization-profile](https://media.giphy.com/media/UUkk4F3a8cJ3GxiCGF/giphy.gif)
 
 ![search-org-categories](https://media.giphy.com/media/h9am7jWBpDNii1WnSF/giphy.gif)

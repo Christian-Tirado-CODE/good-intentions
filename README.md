@@ -9,9 +9,12 @@ The organization called "Sembrando Sentido" hosted a virtual hackathon with the 
 
 The first task we wanted to address was a search bar that allows individuals to look up non-profits based on topics  they are interested in(politics, government, environment etc.) and provide suggestions.
 
+![search-org-categories](https://media.giphy.com/media/h9am7jWBpDNii1WnSF/giphy.gif)
+
+The second page we worked on was the organization's profile. The goal was to design a beautiful interface that would inform users of the following: mission, vision, purpose, posts and events.
+
 ![organization-profile](https://media.giphy.com/media/UUkk4F3a8cJ3GxiCGF/giphy.gif)
 
-![search-org-categories](https://media.giphy.com/media/h9am7jWBpDNii1WnSF/giphy.gif)
 
 
 ## Details

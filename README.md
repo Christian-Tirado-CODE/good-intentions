@@ -16,6 +16,7 @@ The second page we worked on was the organization's profile. The goal was to des
 ![organization-profile](https://media.giphy.com/media/UUkk4F3a8cJ3GxiCGF/giphy.gif)
 
 ## How well did we do?
+We managed to get in 2nd place! The judges were impressed with the quality of design and the tasks finished even though we chose to build using a challenging framework.
 
 ![Hackathon Certificate](https://lh3.googleusercontent.com/JTr0ozXAtpBdf9DphJDjPAyKgyHhTwGScokmbcvgBh7Y-I6RgBAqEdSvKDh84Vzj2o8Maeeip4LZwuHrgwIWX-i-1QOvBnrHAtbJNz4z1k6mw7xUMsLKTCVBHiFG7a5ToPXlfOKBgw=w2400)
 

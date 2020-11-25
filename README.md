@@ -20,6 +20,8 @@ We managed to get in 2nd place! The judges were impressed with the quality of de
 
 ![Hackathon Certificate](https://lh3.googleusercontent.com/JTr0ozXAtpBdf9DphJDjPAyKgyHhTwGScokmbcvgBh7Y-I6RgBAqEdSvKDh84Vzj2o8Maeeip4LZwuHrgwIWX-i-1QOvBnrHAtbJNz4z1k6mw7xUMsLKTCVBHiFG7a5ToPXlfOKBgw=w2400)
 
+## Future Plans
+The plan is to build a complete and fully functional application using the MERN stack. This project will be split into two phases: the first phase is to build the front-end using React and other handful tools and the second phase is to integrate a customized back-end and database using Node.js and MongoDB.
 
 ## Details
 To get more details about the event's purpose, people involved, prizes and more [click here.](https://drive.google.com/file/d/1lmNjIOexHsV1QzaQ18Ro2uiKOH9JsQDJ/view?usp=sharing)

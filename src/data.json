@@ -4,13 +4,15 @@
     "description" : "Sembrando sentido es una organizacion fundada para combatir la corrupcion.",
     "id" : 1,
     "imageLink" : "1",
-    "name" : "Sembrando Sentido"
+    "name" : "Sembrando Sentido",
+    "website" : "www.sembrandosentido.org"
   }, {
     "category" : "Economia",
     "description" : "Convertir a Puerto Rico en un destino prospero para el mundo entero",
     "id" : 2,
     "imageLink" : "2",
-    "name" : "Foundation For Puerto Rico"
+    "name" : "Foundation For Puerto Rico",
+    "website" : "www.foundationforpuertorico.org"
   }, {
     "category" : "Adolescencia",
     "description" : "Somos tu guia para comenzar o crear tu negocio en Puerto Rico",
@@ -28,5 +30,23 @@
     "organization_id" : 1,
     "post_id" : 2,
     "title" : "#rickyrenuncia"
-  } ]
+  } ],
+   "events": [{
+	   "event_id": 1,
+	   "organization_id": 1,
+	   "title": "Protesta al frente del capitolio",
+	   "description": "Siembra Sentido estara realizando una protesta al frente del capitolio"
+	   
+	}, {
+	"event_id": 2,
+	   "organization_id": 1,
+	   "title": "Talle de React 2020",
+	   "description": "Siembra Sentido estara realizando un taller de React"
+
+}, {
+	"event_id": 3,
+	   "organization_id": 2,
+	   "title": "Limpieza de Playas en San Juan",
+	   "description": "Actividad para limpiar playas en San Juan"
+}]
 }

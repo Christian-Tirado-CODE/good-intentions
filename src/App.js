@@ -1,8 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import SearchNonProfits from './components/SearchNonProfits/SearchNonProfits';
 import ProfilePage from './components/Profile/Profile';
+import HeroSlider from './components/UI/HeroSlider/HeroSlider';
 function App() {
   return (
     <BrowserRouter>
@@ -11,6 +11,7 @@ function App() {
         <SearchNonProfits/>
       </Route> 
       <Route path="/organization/:name" component={ProfilePage}/>     
+      <Route path="/slider/" component={HeroSlider}/>     
     </Switch>
     </BrowserRouter>
   );

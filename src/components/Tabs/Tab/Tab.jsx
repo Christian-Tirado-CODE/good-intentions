@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import classes from './Tab.module.css';
 
 class Tab extends Component {
   static propTypes = {
@@ -30,7 +31,7 @@ class Tab extends Component {
 
     return (
       <li
-        className={className}
+        className={[classes.Tab, className].join(' ')}
         onClick={onClick}
       >
         {label}

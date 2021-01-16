@@ -1,0 +1,43 @@
+
+
+.UserFeedRecommendation {
+    display: flex;
+}
+
+
+.UserFeedRecommendationLogo {
+    width: 50px;
+    height: 50px;
+    background-color: lightslategray;
+    margin-right: 10px;
+}
+
+.UserFeedRecommendationName {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.UserFeedRecommendationDescription {
+    color: #ba265d;
+    margin: 5px 0;
+}
+
+.UserFeedRecommendationFollowAction {
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid #ba265d;
+    font-size: 20px;
+    background-color: transparent;
+    color: #ba265d;
+}
+
+.UserFeedRecommendationFollowAction:hover {
+    border-width: 2px;
+    background-color: rgba(186, 38, 93, .2);
+}
+
+/*#cb4154
+#ff5168
+*/

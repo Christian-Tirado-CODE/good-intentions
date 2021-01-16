@@ -1,0 +1,72 @@
+.UserFeedPost {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+
+  
+  
+  .UserFeedPostHeader {
+      height: 100px;
+      margin-bottom: 10px;
+      padding: 20px 0 0 10px;
+  }
+  
+  .NonProfitLogoContainer {
+    float: left;
+  }
+  
+  .NonProfitLogo {
+    width: 100px;
+  }
+  .Clearfix {
+      clear: both;
+  }
+  
+  .NonProfitName {
+      padding-top: 2px;
+  }
+  
+  .UserFeedPostText {
+      font-size: 18px;
+      padding: 0 20px;
+      margin-bottom: 30px;
+  }
+  .UserFeedPostImage {
+      width: 100%;
+  }
+  
+  .UserFeedPostImage > img {
+      width: 100%;
+      
+  }
+  
+  .SocialActions {
+      display: flex;
+      padding: 30px 20px;
+  }
+  
+  .SocialAction {
+      display: flex;
+      align-items: flex-end;
+      cursor: pointer;
+      
+  }
+  
+  .SocialAction:not(:last-child){
+      margin-right: 20px;
+  }
+  
+  .SocialActionIcon {
+      width: 30px;
+      margin-right: 5px;
+  }
+  
+  
+  .SocialActionText {
+      font-size: 20px;
+      display: block;
+  }
+  
+  

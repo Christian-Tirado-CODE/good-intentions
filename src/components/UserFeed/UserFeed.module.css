@@ -1,0 +1,7 @@
+.UserFeed {
+    width: 90%;
+    margin: 20px auto 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 20px;
+  }

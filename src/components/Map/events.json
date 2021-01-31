@@ -1,0 +1,16 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "title": "Lucha contra Ley 999",
+            "description": "Evento politico para combatir corrupcion",
+            "coordinates": [18.455060, -66.083060]
+        },
+        {
+            "id": 2,
+            "title": "Proteger parte del manglar",
+            "description": "Protesta para proteger La parguera",
+            "coordinates": [17.974010, -67.055270]
+        }
+    ]
+}

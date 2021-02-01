@@ -1,0 +1,14 @@
+.MainNavigation__Logo {
+  width: 120px;
+}
+
+.HamburguerIcon {
+    cursor: pointer;
+}
+
+.HamburguerIcon__Line {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin: 12px 0;
+  }
